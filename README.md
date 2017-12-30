@@ -4,7 +4,7 @@ A complete set of files produced in the Parity PoA chain tutorial.
 # Step by Step 
 Follow the [tutorial on GitHub](https://github.com/paritytech/parity/wiki/Demo-PoA-tutorial). Below is a simplification, with some tweaking of the files to make things work. You can run these steps first, and then go back to the tutorial to understand in greater details.
 
-The following assumes you're running on Linux Ubuntu with Parity installed.
+The following assumes you're running on Linux Ubuntu with Parity installed. You can do this on the same machine (the configuration files take care of picking different ports).
 
 ## 1. Run the chain to create the accounts on both nodes
 Type these lines in two separate terminals:  
