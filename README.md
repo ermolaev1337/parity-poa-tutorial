@@ -51,6 +51,6 @@ Run parity with the right chain specification and let other nodes know (by addin
 `$ parity --chain demo-spec.json`
 
 # Troubleshooting
-You should stop other parity processes on your machines during this tutorial (which may compete for the same port / websocket). In case parity complains a port (e.g. 8546 is in use), try using fuser to figure which process you should kill.  
+You should stop other parity processes on your machines during this tutorial (which may compete for the same port / websocket). In case parity complains about a busy port (e.g. 8546 is in use), try using fuser to figure which process you should kill.  
 `$ kill $(fuser 8546/tcp)`
 
