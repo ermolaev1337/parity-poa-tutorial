@@ -7,7 +7,7 @@ port = 30300
 port = 8540
 apis = ["web3", "eth", "net", "personal", "parity", "parity_set", "traces", "rpc", "parity_accounts"]
 [ui]
-port = 8180
+port = 8181
 [dapps]
 port = 8080
 [account]

@@ -50,3 +50,7 @@ You can also try in a separate console, where you can read the JSON-formatted re
 Run parity with the right chain specification and let other nodes know (by adding them by enode URL). You just need the demo-spec.json file to get started.  
 `$ parity --chain demo-spec.json`
 
+# Troubleshooting
+You should stop other parity processes on your machines during this tutorial (which may compete for the same port / websocket). In case parity complains a port (e.g. 8546 is in use), try using fuser to figure which process you should kill.
+`$ kill $(fuser 8546/tcp)`
+
